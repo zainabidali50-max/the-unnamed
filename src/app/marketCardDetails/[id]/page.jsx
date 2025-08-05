@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import React from "react";
 import { useSearchParams } from "next/navigation";
 import Navbar from "@/commonComponents/Navbar";
@@ -7,10 +9,10 @@ import Sidebar from "@/components/dashboard/Sidebar";
 import Image from "next/image";
 import { FaStar, FaHeart, FaShoppingCart } from "react-icons/fa";
 
-import logo25 from "../../../public/images/logo25.png";
-import logo26 from "../../../public/images/logo26.png";
-import logo27 from "../../../public/images/logo27.png";
-import logo28 from "../../../public/images/logo28.png";
+import logo25 from "../../../../public/images/logo25.png";
+import logo26 from "../../../../public/images/logo26.png";
+import logo27 from "../../../../public/images/logo27.png";
+import logo28 from "../../../../public/images/logo28.png";
 
 const relatedProducts = [
   { name: "Chibi Warrior", price: "$16.00", rating: 5, image: logo26 },

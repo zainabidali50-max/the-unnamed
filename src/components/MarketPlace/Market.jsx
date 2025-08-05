@@ -31,7 +31,7 @@ const Marketplace = () => {
       image: item.image.src,
     }).toString();
 
-    router.push(`/marketCardDetails/?${query}`);
+    router.push(`/marketCardDetails/${idx}/?${query}`);
   };
 
   return (
